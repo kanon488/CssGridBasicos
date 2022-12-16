@@ -229,3 +229,21 @@ h1, h2 {
 .grid-10 .box:nth-child(5){
     grid-area: footer;
 }
+
+/* 11 */
+.grid-11{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    height: 300px;
+    align-items: center;
+}
+
+/* 12 */
+
+.grid-12{
+    display: grid;
+    grid-template-columns:  repeat(auto-fill,200px);
+    grid-template-columns:  repeat(auto-fit,200px);
+
+    grid-template-columns: repeat(auto-fit, minmax( 200px, 1fr ));
+}
